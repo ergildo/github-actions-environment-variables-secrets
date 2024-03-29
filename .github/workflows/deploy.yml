@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: testing
     env:
-      MONGODB_CLUSTER_ADDRESS:  ac-h7iydk9-shard-00-01.bbk6yqk.mongodb.net
+      MONGODB_CLUSTER_ADDRESS: ghamongdb.bbk6yqk.mongodb.net
       MONGODB_DB_NAME: ghamongodb
       MONGODB_USERNAME: ${{ secrets.MONGODB_USERNAME }}
       MONGODB_PASSWORD: ${{ secrets.MONGODB_PASSWORD }}
